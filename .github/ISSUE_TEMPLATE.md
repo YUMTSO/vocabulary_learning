@@ -7,4 +7,4 @@ For bugs, please include the following:
 For features, please specify at least minimal requirements, e.g.:
 
 * "As a user, I want a notification badge showing unread count, so I can easily manage my messages"
-* "As a devel
+* "As a developer, I want linting to work properly with JSX, so I can see when there i
