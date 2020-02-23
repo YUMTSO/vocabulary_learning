@@ -3,4 +3,5 @@
 ### Dependencies
 - axios update to 0.18.0 from 0.15.3
 - connect-session-sequelize update to 6.0.0 from 4.1.0
-- his
+- history update to 4.9.0 from 4.6.3
+- morgan update to 1.9.
