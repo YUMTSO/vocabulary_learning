@@ -13,4 +13,5 @@
     - There are some known issues with this and other react packages; will update after some testing
 - react-router-dom update to 5.0.0 from 4.3.1
 - redux update to 4.0.1 from 3.6.0
-- redux-logger u
+- redux-logger update to 3.0.6 from 2.8.1
+- sequelize update to 5.2.15 
