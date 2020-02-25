@@ -11,4 +11,6 @@
 - prop-types update to 15.7.2 from 15.6.2
 - **react-redux update to 5.0.7 from 5.0.2**
     - There are some known issues with this and other react packages; will update after some testing
-- react-router-dom update to 5.0.0 fr
+- react-router-dom update to 5.0.0 from 4.3.1
+- redux update to 4.0.1 from 3.6.0
+- redux-logger u
