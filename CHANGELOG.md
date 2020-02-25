@@ -10,4 +10,4 @@
 - pg update to 7.9.0 from 6.1.2
 - prop-types update to 15.7.2 from 15.6.2
 - **react-redux update to 5.0.7 from 5.0.2**
-    - There 
+    - There are some known issues with this and other react packages
