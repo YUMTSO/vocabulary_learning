@@ -19,4 +19,5 @@
 
 
 ### DevDependencies
-- axi
+- axios-mock-adatper update to 1.16.0 from 1.15.0
+- babel-eslint update to 10
