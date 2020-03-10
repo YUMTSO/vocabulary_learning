@@ -28,4 +28,5 @@
 - eslint-config-fullstack update to 6.0.0 from 5.1.0
 - eslint-config-prettier update to 4.1.0 from 2.9.0
 - husky update to 1.3.1 from 0.14.3
--
+- lint-staged update to 8.1.5 from 7.2.0
+- mocha update to 6.1.2 from 5
