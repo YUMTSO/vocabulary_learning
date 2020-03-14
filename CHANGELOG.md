@@ -32,4 +32,5 @@
 - mocha update to 6.1.2 from 5.2.0
 - supertest update to 4.0.2 from 3.1.0
 - @babel/core update to 7.4.3 from 7.0.0-beta.55
-- @babel/plugin-proposal-class-properti
+- @babel/plugin-proposal-class-properties update to 7.4.0 from 7.0.0-beta.54
+- @babel/plugin-proposal-decor
