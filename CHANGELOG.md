@@ -34,4 +34,5 @@
 - @babel/core update to 7.4.3 from 7.0.0-beta.55
 - @babel/plugin-proposal-class-properties update to 7.4.0 from 7.0.0-beta.54
 - @babel/plugin-proposal-decorators update to 7.4.0 from 7.0.0-beta.54
-- @babel/plugin-proposal-export-n
+- @babel/plugin-proposal-export-namespace-from update to 7.2.0 from 7.0.0-beta.54
+- @babel/plugin-propos
