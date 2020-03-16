@@ -37,4 +37,5 @@
 - @babel/plugin-proposal-export-namespace-from update to 7.2.0 from 7.0.0-beta.54
 - @babel/plugin-proposal-function-sent update to 7.2.0 from 7.0.0-beta.54
 - @babel/plugin-proposal-numeric-separator update to 7.2.0 from 7.0.0-beta.54
-- @babel/plugin-propos
+- @babel/plugin-proposal-throw-expressions update to 7.2.0 from 7.0.0-beta.54
+- @babel/plugin-syn
