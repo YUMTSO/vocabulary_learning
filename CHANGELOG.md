@@ -39,4 +39,5 @@
 - @babel/plugin-proposal-numeric-separator update to 7.2.0 from 7.0.0-beta.54
 - @babel/plugin-proposal-throw-expressions update to 7.2.0 from 7.0.0-beta.54
 - @babel/plugin-syntax-dynamic-import update to 7.2.0 from 7.0.0-beta.54
-- @babel/plugin-syntax-im
+- @babel/plugin-syntax-import-meta update to 7.2.0 from 7.0.0-beta.54
+- @babel/polyfill updat
