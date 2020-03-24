@@ -40,4 +40,5 @@
 - @babel/plugin-proposal-throw-expressions update to 7.2.0 from 7.0.0-beta.54
 - @babel/plugin-syntax-dynamic-import update to 7.2.0 from 7.0.0-beta.54
 - @babel/plugin-syntax-import-meta update to 7.2.0 from 7.0.0-beta.54
-- @babel/polyfill updat
+- @babel/polyfill update to 7.4.3 from 7.0.0-beta.55
+- @babel/preset-env update to 7.4.3 from 7.
