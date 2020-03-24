@@ -43,4 +43,5 @@
 - @babel/polyfill update to 7.4.3 from 7.0.0-beta.55
 - @babel/preset-env update to 7.4.3 from 7.0.0-beta.55
 - @babel/preset-react update to 7.0.0 from 7.0.0-beta.55
-- @ba
+- @babel/register update to 7.4.0 from 7.0.0-beta.55
+- babel-loader update to 8.0.5 from 
