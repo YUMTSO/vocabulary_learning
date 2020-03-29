@@ -44,4 +44,6 @@
 - @babel/preset-env update to 7.4.3 from 7.0.0-beta.55
 - @babel/preset-react update to 7.0.0 from 7.0.0-beta.55
 - @babel/register update to 7.4.0 from 7.0.0-beta.55
-- babel-loader update to 8.0.5 from 
+- babel-loader update to 8.0.5 from 8.0.0-beta.4
+
+`npm i enzyme` to fix lodash dependency: [Prototype Pol
