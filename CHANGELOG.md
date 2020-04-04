@@ -49,4 +49,7 @@
 `npm i enzyme` to fix lodash dependency: [Prototype Polution](https://www.npmjs.com/advisories/782)
 
 
-## Wednesday, April 10th, 2
+## Wednesday, April 10th, 2019
+### Dependencies 
+- react-redux update to 7.0.1 from 5.0.7
+    
