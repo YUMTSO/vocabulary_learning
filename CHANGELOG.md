@@ -52,4 +52,5 @@
 ## Wednesday, April 10th, 2019
 ### Dependencies 
 - react-redux update to 7.0.1 from 5.0.7
-    
+    - Found out that as long as react- is 16.4+, the updates should be fine
+- rea
