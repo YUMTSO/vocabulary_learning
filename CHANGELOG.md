@@ -53,4 +53,5 @@
 ### Dependencies 
 - react-redux update to 7.0.1 from 5.0.7
     - Found out that as long as react- is 16.4+, the updates should be fine
-- rea
+- react update to 16.8.6 from 16.4.2
+- react-dom update to 16.8.6 from 16
