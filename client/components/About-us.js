@@ -6,4 +6,6 @@ class AboutUs extends React.Component {
   render() {
     return (
       <div>
-        <Card classNa
+        <Card className="text-center">
+          <Card.Header>
+            Our story began in May
