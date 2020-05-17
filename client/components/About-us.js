@@ -8,4 +8,5 @@ class AboutUs extends React.Component {
       <div>
         <Card className="text-center">
           <Card.Header>
-            Our story began in May
+            Our story began in May of 2019 in the Grace Hopper 1902 Cohort...
+          </Card.
