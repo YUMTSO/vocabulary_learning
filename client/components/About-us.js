@@ -13,4 +13,6 @@ class AboutUs extends React.Component {
           <Card.Body>
             <Card.Title>
               Fast forward a week later, we’ve grown, we’ve evolved, and we've
-     
+              learned... to just brew it.
+            </Card.Title>
+         
