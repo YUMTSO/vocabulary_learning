@@ -15,4 +15,6 @@ class AboutUs extends React.Component {
               Fast forward a week later, we’ve grown, we’ve evolved, and we've
               learned... to just brew it.
             </Card.Title>
-         
+            <img
+              className="d-block w-100"
+              src
