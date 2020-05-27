@@ -17,4 +17,4 @@ class AboutUs extends React.Component {
             </Card.Title>
             <img
               className="d-block w-100"
-              src
+              src="https://www.roastycoffee.com/wp-content/uploads/blake-wisz-549106-unsplash
