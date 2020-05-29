@@ -24,4 +24,7 @@ class AboutUs extends React.Component {
         </Card>
       </div>
     )
- 
+  }
+}
+
+export default AboutUs
