@@ -19,4 +19,9 @@ class AboutUs extends React.Component {
               className="d-block w-100"
               src="https://www.roastycoffee.com/wp-content/uploads/blake-wisz-549106-unsplash-e1531935387231.jpg"
               alt="About-us-coffee"
-          
+            />
+          </Card.Body>
+        </Card>
+      </div>
+    )
+ 
