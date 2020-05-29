@@ -33,3 +33,13 @@ class AllCoffees extends Component {
     )
   }
 }
+
+const mapStateToProps = state => ({
+  coffees: state.coffees
+})
+
+const mapDispatchToProps = dispatch => ({
+  getCoffees: () => dispatch(getCoffees())
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(AllCoffees)
