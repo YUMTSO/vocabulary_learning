@@ -1,3 +1,4 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button'
-im
+import {connect} from 'react-redux'
+import {Link} from 'react-router-dom'
