@@ -6,4 +6,9 @@ import CartItem from './CartItem'
 import {fetchCartItems} from '../store/cart'
 
 class Cart extends React.Component {
-  constructor(p
+  constructor(props) {
+    super(props)
+    this.state = {}
+  }
+
+  componentDi
