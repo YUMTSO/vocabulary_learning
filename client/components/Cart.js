@@ -11,4 +11,6 @@ class Cart extends React.Component {
     this.state = {}
   }
 
-  componentDi
+  componentDidMount() {
+    console.log('user id', this.props.userId)
+    if (this
