@@ -14,4 +14,10 @@ class Cart extends React.Component {
   componentDidMount() {
     console.log('user id', this.props.userId)
     if (this.props.userId) {
-      this.props.fetchCartItems(this.props.userI
+      this.props.fetchCartItems(this.props.userId)
+    }
+  }
+
+  handleClick(evt) {
+    evt.preventDefault()
+  }
