@@ -24,4 +24,8 @@ class Cart extends React.Component {
 
   render() {
     const {cart, userId} = this.props
-    console.
+    console.log(userId)
+
+    return (
+      <div className="cart">
+      
