@@ -32,3 +32,6 @@ class Cart extends React.Component {
         <h2>Shopping Cart:</h2>
         <br />
         <br />
+        {cart ? (
+          cart.map(item => (
+            <div key
