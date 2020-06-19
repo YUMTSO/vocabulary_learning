@@ -36,4 +36,8 @@ class Cart extends React.Component {
           cart.map(item => (
             <div key={item.id}>
               <CartItem item={item}  />
-              <b
+              <br />
+            </div>
+          ))
+        ) : (
+     
