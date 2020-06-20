@@ -46,4 +46,7 @@ class Cart extends React.Component {
         <br />
         <h2>
           Order Total: $
-  
+          {cart
+            ? cart
+                .map(product => {
+     
