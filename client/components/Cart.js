@@ -42,4 +42,8 @@ class Cart extends React.Component {
         ) : (
           <h2>YOUR CART IS EMPTY</h2>
         )}
-        <br /
+        <br />
+        <br />
+        <h2>
+          Order Total: $
+  
