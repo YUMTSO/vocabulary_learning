@@ -51,4 +51,5 @@ class Cart extends React.Component {
                 .map(product => {
                   return product.price
                 })
-              
+                .reduce((a, b) => Number(a) + Number(b), 0)
+            : 0}{' '
