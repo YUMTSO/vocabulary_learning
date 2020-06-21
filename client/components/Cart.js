@@ -49,4 +49,6 @@ class Cart extends React.Component {
           {cart
             ? cart
                 .map(product => {
-     
+                  return product.price
+                })
+              
