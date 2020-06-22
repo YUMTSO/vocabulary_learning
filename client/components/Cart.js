@@ -58,4 +58,11 @@ class Cart extends React.Component {
         <Link to="/checkout">
           <Button variant="primary" type="submit">
             Checkout
-       
+          </Button>
+        </Link>
+      </div>
+    )
+  }
+}
+
+const mapStateToProps 
