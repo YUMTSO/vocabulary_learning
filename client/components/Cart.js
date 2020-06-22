@@ -52,4 +52,8 @@ class Cart extends React.Component {
                   return product.price
                 })
                 .reduce((a, b) => Number(a) + Number(b), 0)
-            : 0}{' '
+            : 0}{' '}
+        </h2>
+        <br />
+        <Link to="/checkout">
+         
