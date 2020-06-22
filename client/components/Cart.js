@@ -65,4 +65,9 @@ class Cart extends React.Component {
   }
 }
 
-const mapStateToProps 
+const mapStateToProps = state => ({
+  userId: state.user.id,
+  cart: state.cart
+})
+
+const m
