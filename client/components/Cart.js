@@ -56,4 +56,6 @@ class Cart extends React.Component {
         </h2>
         <br />
         <Link to="/checkout">
-         
+          <Button variant="primary" type="submit">
+            Checkout
+       
