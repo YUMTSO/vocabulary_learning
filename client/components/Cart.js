@@ -70,4 +70,5 @@ const mapStateToProps = state => ({
   cart: state.cart
 })
 
-const m
+const mapDispatch = dispatch => ({
+  fetchCartItems: userId => dispatch(fetch
