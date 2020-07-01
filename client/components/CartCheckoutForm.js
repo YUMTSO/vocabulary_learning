@@ -59,3 +59,67 @@ export class CartCheckoutForm extends Component {
               name="lastName"
               placeholder="Last Name"
               onChange={this.handleChange}
+            />
+          </Form.Group>
+          <Form.Group controlId="address">
+            <Form.Label>Address</Form.Label>
+            <Form.Control
+              type="text"
+              name="street"
+              placeholder="Street"
+              onChange={this.handleChange}
+            />
+            <Form.Label>Zip Code</Form.Label>
+            <Form.Control
+              type="text"
+              name="zipcode"
+              placeholder="Zip Code"
+              onChange={this.handleChange}
+            />
+            <Form.Label>City</Form.Label>
+            <Form.Control
+              type="text"
+              name="city"
+              placeholder="City"
+              onChange={this.handleChange}
+            />
+            <Form.Label>State</Form.Label>
+            <Form.Control
+              type="text"
+              name="state"
+              placeholder="State"
+              onChange={this.handleChange}
+            />
+            <Form.Label>Phone</Form.Label>
+            <Form.Control
+              type="text"
+              name="phone"
+              placeholder="Phone"
+              onChange={this.handleChange}
+            />
+            <Form.Label>Country</Form.Label>
+            <Form.Control
+              type="text"
+              name="contry"
+              placeholder="Country"
+              onChange={this.handleChange}
+            />
+          </Form.Group>
+          <Link to="/submitted">
+            <Button variant="primary" type="submit">
+              Submit
+            </Button>
+          </Link>
+        </Form>
+      </div>
+    )
+  }
+}
+
+const mapStateToProps = state => ({
+  cart: state.cart
+})
+
+const mapDispatchToProps = dispatch => ({})
+
+export default connect(mapStateToProps, mapDispatchToProps)(CartCheckoutForm)
