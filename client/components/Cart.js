@@ -71,4 +71,7 @@ const mapStateToProps = state => ({
 })
 
 const mapDispatch = dispatch => ({
-  fetchCartItems: userId => dispatch(fetch
+  fetchCartItems: userId => dispatch(fetchCartItems(userId))
+})
+
+export default connect(mapStateToProps, mapDispa
