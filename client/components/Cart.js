@@ -74,4 +74,4 @@ const mapDispatch = dispatch => ({
   fetchCartItems: userId => dispatch(fetchCartItems(userId))
 })
 
-export default connect(mapStateToProps, mapDispa
+export default connect(mapStateToProps, mapDispatch)(Cart)
