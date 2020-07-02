@@ -1,4 +1,5 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
 
-const Ca
+const CartItem = props => {
+  const {imgUrl, quantity, price, weight, name} 
