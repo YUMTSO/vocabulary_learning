@@ -6,4 +6,7 @@ const CartItem = props => {
   //const qty = props.item.OrdersProducts.quantity
   return (
     <Card style={{width: '600px'}} className="cart">
-      <Card.Bod
+      <Card.Body>
+        <br />
+        <Card.Title>Product Name: {name}</Card.Title>
+       
