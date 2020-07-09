@@ -11,4 +11,6 @@ const CartItem = props => {
         <Card.Title>Product Name: {name}</Card.Title>
         <br />
         <Card.Img variant="top" src={imgUrl} />
-        <br
+        <br />
+        <br />
+        <Card.Subtitle className="mb-2 text-mut
