@@ -9,4 +9,6 @@ const CartItem = props => {
       <Card.Body>
         <br />
         <Card.Title>Product Name: {name}</Card.Title>
-       
+        <br />
+        <Card.Img variant="top" src={imgUrl} />
+        <br
