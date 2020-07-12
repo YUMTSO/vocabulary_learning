@@ -20,4 +20,7 @@ const CartItem = props => {
           Price: ${price}{' '}
         </Card.Subtitle>
         <br />
-        <Card.Subtitle className="mb-2 text
+        <Card.Subtitle className="mb-2 text-muted">
+          Weight {weight}
+        </Card.Subtitle>
+      </Car
