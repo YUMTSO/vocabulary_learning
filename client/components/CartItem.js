@@ -23,4 +23,9 @@ const CartItem = props => {
         <Card.Subtitle className="mb-2 text-muted">
           Weight {weight}
         </Card.Subtitle>
-      </Car
+      </Card.Body>
+    </Card>
+  )
+}
+
+export default CartItem
