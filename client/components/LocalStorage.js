@@ -2,4 +2,5 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {Link} from 'react-router-dom'
 
-imp
+import CardColumns from 'react-bootstrap/CardColumns'
+import Container 
