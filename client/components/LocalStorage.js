@@ -7,4 +7,5 @@ import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 
-import {getCoffee
+import {getCoffees} from '../store/products'
+import {SingleCoffeeLocalStorage} from '.
