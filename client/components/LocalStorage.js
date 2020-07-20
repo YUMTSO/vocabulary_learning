@@ -8,4 +8,6 @@ import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 
 import {getCoffees} from '../store/products'
-import {SingleCoffeeLocalStorage} from '.
+import {SingleCoffeeLocalStorage} from './SingleCoffeeLocalStorage'
+
+class LocalStorage extends 
