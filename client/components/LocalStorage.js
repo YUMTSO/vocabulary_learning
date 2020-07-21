@@ -10,4 +10,8 @@ import Card from 'react-bootstrap/Card'
 import {getCoffees} from '../store/products'
 import {SingleCoffeeLocalStorage} from './SingleCoffeeLocalStorage'
 
-class LocalStorage extends 
+class LocalStorage extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+ 
