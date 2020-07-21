@@ -14,4 +14,9 @@ class LocalStorage extends Component {
   constructor(props) {
     super(props)
     this.state = {
- 
+      newItem: '',
+      list: []
+    }
+  }
+
+  
