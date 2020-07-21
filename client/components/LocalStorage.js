@@ -21,4 +21,5 @@ class LocalStorage extends Component {
 
   componentDidMount() {
     this.props.getCoffees()
-    
+    this.hydrateStateWithLocalStorage()
+    window.addEventListen
