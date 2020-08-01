@@ -24,4 +24,9 @@ class LocalStorage extends Component {
     this.hydrateStateWithLocalStorage()
     window.addEventListener(
       'beforeunload',
-      this.saveStateToLocalStorage.bind(th
+      this.saveStateToLocalStorage.bind(this)
+    )
+  }
+
+  componentWillUnmount() {
+    window.removeEventLi
