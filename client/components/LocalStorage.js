@@ -22,4 +22,6 @@ class LocalStorage extends Component {
   componentDidMount() {
     this.props.getCoffees()
     this.hydrateStateWithLocalStorage()
-    window.addEventListen
+    window.addEventListener(
+      'beforeunload',
+      this.saveStateToLocalStorage.bind(th
