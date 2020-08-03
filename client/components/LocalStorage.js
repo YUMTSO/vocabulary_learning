@@ -31,4 +31,6 @@ class LocalStorage extends Component {
   componentWillUnmount() {
     window.removeEventListener(
       'beforeunload',
-      this.saveStateTo
+      this.saveStateToLocalStorage.bind(this)
+    )
+    // saves if compo
