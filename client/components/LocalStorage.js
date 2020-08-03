@@ -34,4 +34,8 @@ class LocalStorage extends Component {
       this.saveStateToLocalStorage.bind(this)
     )
     // saves if component has a chance to unmount
-    this.saveStateToLocalStorag
+    this.saveStateToLocalStorage()
+  }
+
+  hydrateStateWithLocalStorage() {
+    // for all it
