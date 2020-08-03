@@ -33,4 +33,5 @@ class LocalStorage extends Component {
       'beforeunload',
       this.saveStateToLocalStorage.bind(this)
     )
-    // saves if compo
+    // saves if component has a chance to unmount
+    this.saveStateToLocalStorag
