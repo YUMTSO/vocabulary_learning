@@ -40,4 +40,5 @@ class LocalStorage extends Component {
   hydrateStateWithLocalStorage() {
     // for all items in state
     for (let key in this.state) {
-      // if the 
+      // if the key exists in localStorage
+      if (localStorage.hasO
