@@ -38,4 +38,6 @@ class LocalStorage extends Component {
   }
 
   hydrateStateWithLocalStorage() {
-    // for all it
+    // for all items in state
+    for (let key in this.state) {
+      // if the 
