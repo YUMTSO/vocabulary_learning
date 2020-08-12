@@ -42,4 +42,6 @@ class LocalStorage extends Component {
     for (let key in this.state) {
       // if the key exists in localStorage
       if (localStorage.hasOwnProperty(key)) {
-        // get the key's value from 
+        // get the key's value from localStorage
+        let value = localStorage.getItem(key)
+   
