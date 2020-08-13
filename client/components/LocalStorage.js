@@ -44,4 +44,6 @@ class LocalStorage extends Component {
       if (localStorage.hasOwnProperty(key)) {
         // get the key's value from localStorage
         let value = localStorage.getItem(key)
-   
+        try {
+          value = JSON.parse(value)
+          this.setState({[key
