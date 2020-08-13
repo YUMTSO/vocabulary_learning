@@ -46,4 +46,7 @@ class LocalStorage extends Component {
         let value = localStorage.getItem(key)
         try {
           value = JSON.parse(value)
-          this.setState({[key
+          this.setState({[key]: value})
+        } catch (e) {
+          // handle empty string
+          this
