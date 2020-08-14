@@ -49,4 +49,10 @@ class LocalStorage extends Component {
           this.setState({[key]: value})
         } catch (e) {
           // handle empty string
-          this
+          this.setState({[key]: value})
+        }
+      }
+    }
+  }
+
+  saveState
