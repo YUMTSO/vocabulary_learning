@@ -55,4 +55,6 @@ class LocalStorage extends Component {
     }
   }
 
-  saveState
+  saveStateToLocalStorage() {
+    for (let key in this.state) {
+      localStorage.setIt
