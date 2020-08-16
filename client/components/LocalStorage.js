@@ -57,4 +57,8 @@ class LocalStorage extends Component {
 
   saveStateToLocalStorage() {
     for (let key in this.state) {
-      localStorage.setIt
+      localStorage.setItem(key, JSON.stringify(this.state[key]))
+    }
+  }
+
+  add
