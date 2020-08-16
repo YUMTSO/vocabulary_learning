@@ -61,4 +61,7 @@ class LocalStorage extends Component {
     }
   }
 
-  add
+  addItem(id) {
+    const newItem = {
+      id: id,
+      value: 1
