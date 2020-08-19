@@ -76,4 +76,6 @@ class LocalStorage extends Component {
     })
   }
 
-  del
+  deleteItem(id) {
+    // copy current list of items
+    cons
