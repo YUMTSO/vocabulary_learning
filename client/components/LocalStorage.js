@@ -68,4 +68,12 @@ class LocalStorage extends Component {
     }
     const list = [...this.state.list]
 
-    list.push(newItem
+    list.push(newItem)
+
+    this.setState({
+      list,
+      newItem: ''
+    })
+  }
+
+  del
