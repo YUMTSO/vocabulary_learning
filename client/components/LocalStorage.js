@@ -80,4 +80,4 @@ class LocalStorage extends Component {
     // copy current list of items
     const list = [...this.state.list]
     // filter out the item being deleted
-    co
+    const updatedList = list.filter(item => item.id !==
