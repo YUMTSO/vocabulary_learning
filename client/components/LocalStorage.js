@@ -96,4 +96,10 @@ class LocalStorage extends Component {
       if (el.id === id) {
         el.value += 1
       }
-    
+      return el
+    })
+
+    this.setState({list: updatedList})
+  }
+
+  rend
