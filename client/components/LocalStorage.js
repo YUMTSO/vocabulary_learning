@@ -92,4 +92,8 @@ class LocalStorage extends Component {
   updateInput(id) {
     const list = [...this.state.list]
 
-    const updatedList = list.ma
+    const updatedList = list.map(el => {
+      if (el.id === id) {
+        el.value += 1
+      }
+    
