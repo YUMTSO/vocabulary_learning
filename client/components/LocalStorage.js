@@ -85,4 +85,8 @@ class LocalStorage extends Component {
     this.setState({list: updatedList})
   }
 
-  findId(list, id) 
+  findId(list, id) {
+    return list.map(el => el.id).includes(id)
+  }
+
+  updateInput(id) {
