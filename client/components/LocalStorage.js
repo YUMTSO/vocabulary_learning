@@ -90,3 +90,6 @@ class LocalStorage extends Component {
   }
 
   updateInput(id) {
+    const list = [...this.state.list]
+
+    const updatedList = list.ma
