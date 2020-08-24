@@ -102,4 +102,5 @@ class LocalStorage extends Component {
     this.setState({list: updatedList})
   }
 
-  rend
+  render() {
+    const {coffees, loading} = this.props.coffees
