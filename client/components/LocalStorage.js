@@ -108,4 +108,8 @@ class LocalStorage extends Component {
     return (
       <div>
         <header>
-          <h1>Shopping Cart Local
+          <h1>Shopping Cart Local Storage</h1>
+        </header>
+
+        <div>
+          {coffees && !loading ? (
