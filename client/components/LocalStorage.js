@@ -104,3 +104,8 @@ class LocalStorage extends Component {
 
   render() {
     const {coffees, loading} = this.props.coffees
+
+    return (
+      <div>
+        <header>
+          <h1>Shopping Cart Local
