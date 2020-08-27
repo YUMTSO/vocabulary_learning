@@ -113,3 +113,6 @@ class LocalStorage extends Component {
 
         <div>
           {coffees && !loading ? (
+            <Container>
+              local storage render
+      
