@@ -115,4 +115,6 @@ class LocalStorage extends Component {
           {coffees && !loading ? (
             <Container>
               local storage render
-      
+              <CardColumns>
+                {coffees.map(coffee => (
+            
