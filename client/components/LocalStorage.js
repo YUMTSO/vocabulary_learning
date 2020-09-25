@@ -119,4 +119,6 @@ class LocalStorage extends Component {
                 {coffees.map(coffee => (
                   <div key={coffee.id}>
                     <Card style={{width: '18rem'}}>
-                      <Card.Img variant="top" 
+                      <Card.Img variant="top" src={coffee.imgUrl} />
+                      <Card.Body>
+  
