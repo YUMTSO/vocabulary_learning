@@ -122,4 +122,5 @@ class LocalStorage extends Component {
                       <Card.Img variant="top" src={coffee.imgUrl} />
                       <Card.Body>
                         <Card.Title>{coffee.name}</Card.Title>
-             
+                        <Card.Text>{coffee.price}</Card.Text>
+               
