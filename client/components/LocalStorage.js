@@ -123,4 +123,5 @@ class LocalStorage extends Component {
                       <Card.Body>
                         <Card.Title>{coffee.name}</Card.Title>
                         <Card.Text>{coffee.price}</Card.Text>
-               
+                        <Link to={`/coffees/${coffee.id}`}>
+                
