@@ -125,4 +125,6 @@ class LocalStorage extends Component {
                         <Card.Text>{coffee.price}</Card.Text>
                         <Link to={`/coffees/${coffee.id}`}>
                           <Button variant="primary">See more!</Button>
-                  
+                        </Link>
+                        <Button
+               
