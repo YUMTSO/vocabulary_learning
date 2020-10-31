@@ -130,3 +130,5 @@ class LocalStorage extends Component {
                           variant="primary"
                           onClick={
                             !this.findId(this.state.list, coffee.id)
+                              ? () => this.addItem(coffee.id)
+           
