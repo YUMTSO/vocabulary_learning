@@ -132,4 +132,6 @@ class LocalStorage extends Component {
                             !this.findId(this.state.list, coffee.id)
                               ? () => this.addItem(coffee.id)
                               : () => this.updateInput(coffee.id)
-                    
+                          }
+                        >
+                          Add
