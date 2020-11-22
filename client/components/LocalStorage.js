@@ -134,4 +134,6 @@ class LocalStorage extends Component {
                               : () => this.updateInput(coffee.id)
                           }
                         >
-                          Add
+                          Add To Cart
+                        </Button>
+                      </Card
