@@ -148,3 +148,6 @@ class LocalStorage extends Component {
         </div>
 
         <div
+          style={{
+            padding: 50,
+            textAlign: 'l
