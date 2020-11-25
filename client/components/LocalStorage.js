@@ -153,4 +153,8 @@ class LocalStorage extends Component {
             textAlign: 'left',
             maxWidth: 500,
             margin: 'auto'
-          }
+          }}
+        >
+          CART LIST
+          <br />
+          <
