@@ -157,4 +157,7 @@ class LocalStorage extends Component {
         >
           CART LIST
           <br />
-          <
+          <br /> <br />
+          <ul>
+            {this.state.list.map(item => {
+     
