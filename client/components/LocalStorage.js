@@ -162,4 +162,5 @@ class LocalStorage extends Component {
             {this.state.list.map(item => {
               return (
                 <li key={item.id}>
-               
+                  Product Id:{item.id} --- Qty: {item.value}
+     
