@@ -136,4 +136,7 @@ class LocalStorage extends Component {
                         >
                           Add To Cart
                         </Button>
-                      </Card
+                      </Card.Body>
+                    </Card>
+                  </div>
+                
