@@ -139,4 +139,7 @@ class LocalStorage extends Component {
                       </Card.Body>
                     </Card>
                   </div>
-                
+                ))}
+              </CardColumns>
+            </Container>
+          ) : 
