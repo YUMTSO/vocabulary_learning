@@ -142,4 +142,9 @@ class LocalStorage extends Component {
                 ))}
               </CardColumns>
             </Container>
-          ) : 
+          ) : (
+            <h1>still loading!</h1>
+          )}
+        </div>
+
+        <div
