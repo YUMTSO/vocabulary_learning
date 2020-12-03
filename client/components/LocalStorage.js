@@ -167,4 +167,12 @@ class LocalStorage extends Component {
                     Remove
                   </button>
                 </li>
-              
+              )
+            })}
+          </ul>
+        </div>
+      </div>
+    )
+  }
+}
+c
