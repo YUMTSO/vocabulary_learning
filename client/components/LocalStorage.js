@@ -180,4 +180,7 @@ const mapStateToProps = state => ({
 })
 
 const mapDispatchToProps = dispatch => ({
-  getCoffees: () => dispat
+  getCoffees: () => dispatch(getCoffees())
+})
+
+export default connect(mapStateToProps, mapDispatch
