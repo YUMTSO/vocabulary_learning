@@ -163,4 +163,5 @@ class LocalStorage extends Component {
               return (
                 <li key={item.id}>
                   Product Id:{item.id} --- Qty: {item.value}
-     
+                  <button onClick={() => this.deleteItem(item.id)}>
+                   
