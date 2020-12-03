@@ -179,4 +179,5 @@ const mapStateToProps = state => ({
   coffees: state.coffees
 })
 
-co
+const mapDispatchToProps = dispatch => ({
+  getCoffees: () => dispat
