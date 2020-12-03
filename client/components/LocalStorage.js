@@ -175,4 +175,8 @@ class LocalStorage extends Component {
     )
   }
 }
-c
+const mapStateToProps = state => ({
+  coffees: state.coffees
+})
+
+co
