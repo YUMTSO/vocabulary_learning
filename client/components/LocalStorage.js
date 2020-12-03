@@ -183,4 +183,4 @@ const mapDispatchToProps = dispatch => ({
   getCoffees: () => dispatch(getCoffees())
 })
 
-export default connect(mapStateToProps, mapDispatch
+export default connect(mapStateToProps, mapDispatchToProps)(LocalStorage)
