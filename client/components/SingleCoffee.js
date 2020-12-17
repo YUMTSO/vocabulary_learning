@@ -96,3 +96,18 @@ class SingleCoffee extends React.Component {
     )
   }
 }
+
+const mapStateToProps = state => ({
+  coffees: state.coffees,
+  userId: state.user.id,
+  cart: state.cart,
+  quantity: 1
+})
+
+const mapDispatch = dispatch => ({
+  addToCart: (item, cart, userId, quantity) =>
+    dispatch(addToCart(item, cart, userId, quantity)),
+  fetchCartItems: userId => dispatch(fetchCartItems(userId))
+})
+
+export default connect(mapStateToProps, mapDispatch)(SingleCoffee)
