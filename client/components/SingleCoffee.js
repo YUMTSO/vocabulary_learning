@@ -39,3 +39,60 @@ class SingleCoffee extends React.Component {
     evt.preventDefault()
     console.log('CART LENGHT', this.props.cart.length)
     console.log('coffe id', this.props.coffee.id)
+
+    if (this.props.cart.length === 0) {
+      this.props.addToCart(
+        this.props.coffee,
+        this.props.cart,
+        this.props.userId,
+        this.props.quantity
+      )
+    } else {
+      console.log('In Cart > 0')
+
+      if (!this.findProductIdinCart(this.props.coffee.id, this.props.cart)) {
+        this.props.addToCart(
+          this.props.coffee,
+          this.props.cart,
+          this.props.userId,
+          this.props.quantity
+        )
+      } else {
+        console.log('aaaa')
+        const qty = this.findProductIdinCart(
+          this.props.coffee.id,
+          this.props.cart
+        ).quantity++
+        console.log('New Qty', qty)
+      }
+    }
+  }
+
+  // }
+
+  render() {
+    const {name, imgUrl, price, id} = this.props.coffee
+
+    return (
+      <div>
+        <Card style={{width: '18rem'}}>
+          <Card.Img variant="top" src={imgUrl} />
+          <Card.Body>
+            <Card.Title>{name}</Card.Title>
+            <Card.Text>Price: ${price}</Card.Text>
+
+            <Link to={`/coffees/${id}`}>
+              <Button variant="primary">See more!</Button>
+            </Link>
+            {`  `}
+            <Link to="/cart">
+              <Button onClick={this.handleClick} variant="primary">
+                Add To Cart
+              </Button>
+            </Link>
+          </Card.Body>
+        </Card>
+      </div>
+    )
+  }
+}
