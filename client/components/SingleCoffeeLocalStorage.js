@@ -9,4 +9,7 @@ export const SingleCoffeeLocalStorage = props => {
   return (
     <div>
       <Card style={{width: '18rem'}}>
-        <Card.Img va
+        <Card.Img variant="top" src={imgUrl} />
+        <Card.Body>
+          <Card.Title>{name}</Card.Title>
+   
