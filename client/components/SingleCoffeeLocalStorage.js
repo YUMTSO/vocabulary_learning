@@ -12,4 +12,5 @@ export const SingleCoffeeLocalStorage = props => {
         <Card.Img variant="top" src={imgUrl} />
         <Card.Body>
           <Card.Title>{name}</Card.Title>
-   
+          <Card.Text>{price}</Card.Text>
+          <Link to={`/coffees/$
