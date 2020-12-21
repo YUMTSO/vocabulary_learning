@@ -13,4 +13,5 @@ export const SingleCoffeeLocalStorage = props => {
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <Card.Text>{price}</Card.Text>
-          <Link to={`/coffees/$
+          <Link to={`/coffees/${id}`}>
+            <Button variant="primary">See more!</But
