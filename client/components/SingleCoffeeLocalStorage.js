@@ -17,4 +17,8 @@ export const SingleCoffeeLocalStorage = props => {
             <Button variant="primary">See more!</Button>
           </Link>
           <Button variant="primary">Add To Cart</Button>
-      
+        </Card.Body>
+      </Card>
+    </div>
+  )
+}
