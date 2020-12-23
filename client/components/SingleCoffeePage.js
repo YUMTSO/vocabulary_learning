@@ -1,1 +1,3 @@
-import React from 'r
+import React from 'react'
+import {connect} from 'react-redux'
+import {Link} from 'react-r
