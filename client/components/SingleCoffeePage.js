@@ -6,4 +6,6 @@ import Button from 'react-bootstrap/Button'
 import {getSingleCoffee} from '../store'
 import {addToCart} from '../store/cart'
 
-export class SingleCoffe
+export class SingleCoffeePage extends React.Component {
+  componentDidMount() {
+    this.prop
