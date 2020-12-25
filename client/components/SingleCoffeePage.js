@@ -10,4 +10,8 @@ export class SingleCoffeePage extends React.Component {
   componentDidMount() {
     this.props.getCoffee(this.props.match.params.coffeeId)
   }
-  render()
+  render() {
+    const {
+      name,
+      description,
+      p
