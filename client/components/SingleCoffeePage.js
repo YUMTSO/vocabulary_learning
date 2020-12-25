@@ -8,4 +8,6 @@ import {addToCart} from '../store/cart'
 
 export class SingleCoffeePage extends React.Component {
   componentDidMount() {
-    this.prop
+    this.props.getCoffee(this.props.match.params.coffeeId)
+  }
+  render()
