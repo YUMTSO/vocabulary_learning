@@ -22,4 +22,7 @@ export class SingleCoffeePage extends React.Component {
     } = this.props.coffees.coffee
     return (
       <Jumbotron>
-    
+        <h1>{name}</h1>
+        <img src={imgUrl} />
+        <p>
+          D
