@@ -14,4 +14,8 @@ export class SingleCoffeePage extends React.Component {
     const {
       name,
       description,
-      p
+      preparation,
+      origin,
+      weight,
+      price,
+      imgU
