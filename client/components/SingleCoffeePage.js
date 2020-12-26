@@ -18,4 +18,8 @@ export class SingleCoffeePage extends React.Component {
       origin,
       weight,
       price,
-      imgU
+      imgUrl
+    } = this.props.coffees.coffee
+    return (
+      <Jumbotron>
+    
