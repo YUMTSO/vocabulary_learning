@@ -25,4 +25,8 @@ export class SingleCoffeePage extends React.Component {
         <h1>{name}</h1>
         <img src={imgUrl} />
         <p>
-          D
+          Description:
+          {description}
+        </p>
+        <p>
+  
