@@ -32,4 +32,9 @@ export class SingleCoffeePage extends React.Component {
           Preparation:
           {preparation}
         </p>
+        <p>
+          Origin:
+          {origin}
+        </p>
+        <p>
         
