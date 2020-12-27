@@ -37,4 +37,8 @@ export class SingleCoffeePage extends React.Component {
           {origin}
         </p>
         <p>
-        
+          Weight:
+          {weight}
+        </p>
+        <p>
+       
