@@ -41,4 +41,8 @@ export class SingleCoffeePage extends React.Component {
           {weight}
         </p>
         <p>
-       
+          Price:
+          {price}
+        </p>
+        <p>
+          <Button v
