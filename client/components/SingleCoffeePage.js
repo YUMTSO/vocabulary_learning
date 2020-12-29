@@ -45,4 +45,6 @@ export class SingleCoffeePage extends React.Component {
           {price}
         </p>
         <p>
-          <Button v
+          <Button variant="primary">Add To Cart</Button>
+        </p>
+      </Jumbotron
