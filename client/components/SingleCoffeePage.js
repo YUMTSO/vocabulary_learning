@@ -58,4 +58,7 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => ({
   getCoffee: coffeeId => dispatch(getSingleCoffee(coffeeId)),
-  addToCart: () => dispatch(
+  addToCart: () => dispatch(addToCart())
+})
+
+export default connect(mapStateToProps, mapDispatchToPr
