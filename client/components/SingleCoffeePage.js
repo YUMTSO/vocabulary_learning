@@ -47,4 +47,10 @@ export class SingleCoffeePage extends React.Component {
         <p>
           <Button variant="primary">Add To Cart</Button>
         </p>
-      </Jumbotron
+      </Jumbotron>
+    )
+  }
+}
+
+const mapStateToProps = state => ({
+  coffees: 
