@@ -53,4 +53,8 @@ export class SingleCoffeePage extends React.Component {
 }
 
 const mapStateToProps = state => ({
-  coffees: 
+  coffees: state.coffees
+})
+
+const mapDispatchToProps = dispatch => ({
+  getCoffee: c
