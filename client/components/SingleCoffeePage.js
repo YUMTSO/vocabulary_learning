@@ -57,4 +57,5 @@ const mapStateToProps = state => ({
 })
 
 const mapDispatchToProps = dispatch => ({
-  getCoffee: c
+  getCoffee: coffeeId => dispatch(getSingleCoffee(coffeeId)),
+  addToCart: () => dispatch(
