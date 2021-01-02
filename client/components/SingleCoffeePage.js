@@ -61,4 +61,4 @@ const mapDispatchToProps = dispatch => ({
   addToCart: () => dispatch(addToCart())
 })
 
-export default connect(mapStateToProps, mapDispatchToPr
+export default connect(mapStateToProps, mapDispatchToProps)(SingleCoffeePage)
