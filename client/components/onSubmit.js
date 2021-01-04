@@ -1,2 +1,3 @@
 import React, {Component} from 'react'
-import {c
+import {connect} from 'react-redux'
+import Jumbotron from 'react-bootstrap
