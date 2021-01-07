@@ -6,4 +6,6 @@ import Container from 'react-bootstrap/Container'
 export class onSubmit extends Component {
   render() {
     return (
-      <Jumbotr
+      <Jumbotron fluid>
+        <Container>
+          <h1>Thanks a latte!
