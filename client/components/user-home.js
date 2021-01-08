@@ -1,2 +1,3 @@
 import React from 'react'
-import PropT
+import PropTypes from 'prop-types'
+import {connect} from 'react-r
