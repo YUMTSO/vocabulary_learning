@@ -12,4 +12,6 @@ export const UserHome = props => {
 
   return (
     <div>
-      <h3>Welcome, 
+      <h3>Welcome, {email}</h3>
+      <Link className="navbar" to="/all-coffee">
+        
