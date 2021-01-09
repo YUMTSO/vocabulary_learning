@@ -14,4 +14,13 @@ export const UserHome = props => {
     <div>
       <h3>Welcome, {email}</h3>
       <Link className="navbar" to="/all-coffee">
-        
+        Our Coffee
+      </Link>
+    </div>
+  )
+}
+
+/**
+ * CONTAINER
+ */
+const ma
