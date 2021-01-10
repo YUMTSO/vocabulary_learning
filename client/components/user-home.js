@@ -28,3 +28,10 @@ const mapState = state => {
     email: state.user.email
   }
 }
+
+export default connect(mapState)(UserHome)
+
+/**
+ * PROP TYPES
+ */
+U
