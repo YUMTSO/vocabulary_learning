@@ -23,4 +23,8 @@ export const UserHome = props => {
 /**
  * CONTAINER
  */
-const ma
+const mapState = state => {
+  return {
+    email: state.user.email
+  }
+}
