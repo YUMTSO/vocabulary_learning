@@ -34,4 +34,6 @@ export default connect(mapState)(UserHome)
 /**
  * PROP TYPES
  */
-U
+UserHome.propTypes = {
+  email: PropTypes.string
+}
