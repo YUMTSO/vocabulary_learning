@@ -13,4 +13,7 @@ describe('UserHome', () => {
   let userHome
 
   beforeEach(() => {
-    userHome = shallo
+    userHome = shallow(<UserHome email="cody@email.com" />)
+  })
+
+  it('r
