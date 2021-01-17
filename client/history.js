@@ -1,2 +1,5 @@
 import createHistory from 'history/createBrowserHistory'
-import createMemoryHis
+import createMemoryHistory from 'history/createMemoryHistory'
+
+const history =
+  process.en
