@@ -5,4 +5,6 @@ import PropTypes from 'prop-types'
 import {Login, Signup, UserHome} from './components'
 import {me} from './store'
 import SingleCoffeePage from './components/SingleCoffeePage'
-import AllCoffees from './c
+import AllCoffees from './components/AllCoffees'
+import {HomePage} from './components/Homepage'
+import Abou
