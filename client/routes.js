@@ -7,4 +7,6 @@ import {me} from './store'
 import SingleCoffeePage from './components/SingleCoffeePage'
 import AllCoffees from './components/AllCoffees'
 import {HomePage} from './components/Homepage'
-import Abou
+import AboutUs from './components/About-us'
+import Cart from './components/Cart'
+impor
