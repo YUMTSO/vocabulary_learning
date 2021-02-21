@@ -29,4 +29,5 @@ class Routes extends Component {
         <Route exact path="/" component={HomePage} />
         <Route path="/sign-in" component={Login} />
         <Route path="/signup" component={Signup} />
-        <Route path="
+        <Route path="/coffees/:coffeeId" component={SingleCoffeePage} />
+        <R
