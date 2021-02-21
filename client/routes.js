@@ -10,4 +10,9 @@ import {HomePage} from './components/Homepage'
 import AboutUs from './components/About-us'
 import Cart from './components/Cart'
 import {CartCheckoutForm} from './components/CartCheckoutForm'
-import {onSubmit
+import {onSubmit} from './components/onSubmit'
+
+/**
+ * COMPONENT
+ */
+class Routes exte
