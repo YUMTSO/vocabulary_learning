@@ -15,4 +15,6 @@ import {onSubmit} from './components/onSubmit'
 /**
  * COMPONENT
  */
-class Routes exte
+class Routes extends Component {
+  componentDidMount() {
+    this.props.loadInitialD
