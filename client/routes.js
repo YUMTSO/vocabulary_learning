@@ -17,4 +17,10 @@ import {onSubmit} from './components/onSubmit'
  */
 class Routes extends Component {
   componentDidMount() {
-    this.props.loadInitialD
+    this.props.loadInitialData()
+  }
+
+  render() {
+    const {isLoggedIn} = this.props
+
+    ret
