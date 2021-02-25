@@ -36,4 +36,6 @@ class Routes extends Component {
         <Route path="/checkout" component={CartCheckoutForm} />
         <Route path="/submitted" component={onSubmit} />
 
-        {isLogg
+        {isLoggedIn && (
+          <Switch>
+            {/* Routes placed here are only avail
