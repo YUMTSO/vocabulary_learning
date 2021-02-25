@@ -32,4 +32,6 @@ class Routes extends Component {
         <Route path="/coffees/:coffeeId" component={SingleCoffeePage} />
         <Route path="/about-us" component={AboutUs} />
         <Route path="/allcoffee" component={AllCoffees} />
-        <Route path="/cart" component={Cart}
+        <Route path="/cart" component={Cart} />
+        <Route path="/checkout" component={CartCheckoutForm} />
+   
