@@ -34,4 +34,6 @@ class Routes extends Component {
         <Route path="/allcoffee" component={AllCoffees} />
         <Route path="/cart" component={Cart} />
         <Route path="/checkout" component={CartCheckoutForm} />
-   
+        <Route path="/submitted" component={onSubmit} />
+
+        {isLogg
