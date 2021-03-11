@@ -55,4 +55,4 @@ class Routes extends Component {
  */
 const mapState = state => {
   return {
-    //
+    // Being 'logged in' for our purposes will be defined has having a st
