@@ -63,4 +63,10 @@ const mapState = state => {
 
 const mapDispatch = dispatch => {
   return {
-    loadI
+    loadInitialData() {
+      dispatch(me())
+    }
+  }
+}
+
+// The `withRouter
