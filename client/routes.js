@@ -69,4 +69,5 @@ const mapDispatch = dispatch => {
   }
 }
 
-// The `withRouter
+// The `withRouter` wrapper makes sure that updates are not blocked
+// when the url change
