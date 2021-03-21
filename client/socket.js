@@ -1,1 +1,5 @@
-import io from 'so
+import io from 'socket.io-client'
+
+const socket = io(window.location.origin)
+
+s
