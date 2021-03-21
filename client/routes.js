@@ -75,3 +75,6 @@ export default withRouter(connect(mapState, mapDispatch)(Routes))
 
 /**
  * PROP TYPES
+ */
+Routes.propTypes = {
+  loadInitialData: PropTypes.func.isRe
