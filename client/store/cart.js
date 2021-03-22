@@ -1,4 +1,6 @@
 import axios from 'axios'
 
 //ACTION TYPES
-c
+const GOT_CART_ITEMS = 'GOT_CART_ITEMS'
+const ADDED_TO_CART = 'ADDED_TO_CART'
+
