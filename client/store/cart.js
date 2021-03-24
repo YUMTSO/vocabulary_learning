@@ -12,4 +12,10 @@ const gotCartItems = items => ({
 })
 
 const addedToCart = newCartData => ({
-  type: AD
+  type: ADDED_TO_CART,
+  newCartData
+})
+
+let initialState = []
+
+//THUNK
