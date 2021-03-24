@@ -18,4 +18,7 @@ const addedToCart = newCartData => ({
 
 let initialState = []
 
-//THUNK
+//THUNKS
+export const fetchCartItems = userId => async dispatch => {
+  try {
+    if (user
