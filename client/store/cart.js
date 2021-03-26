@@ -26,3 +26,8 @@ export const fetchCartItems = userId => async dispatch => {
       dispatch(gotCartItems(data))
     }
   } catch (err) {
+    console.error(err)
+  }
+}
+
+export const addToCart = (item, cart, us
