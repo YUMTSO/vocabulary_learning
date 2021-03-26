@@ -21,4 +21,5 @@ let initialState = []
 //THUNKS
 export const fetchCartItems = userId => async dispatch => {
   try {
-    if (user
+    if (userId) {
+      const {data} = await axios.get(`/api/orders/cart/${
