@@ -30,4 +30,7 @@ export const fetchCartItems = userId => async dispatch => {
   }
 }
 
-export const addToCart = (item, cart, us
+export const addToCart = (item, cart, userId, quantity) => async dispatch => {
+  try {
+    if (userId) {
+      // axios 
