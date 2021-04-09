@@ -48,4 +48,7 @@ export const addToCart = (item, cart, userId, quantity) => async dispatch => {
       } else if (cart.includes(item)) {
         newCartData = await axios.put(`api/orders/${userId}/cart/${orderId}`, {
           productId: item.id,
- 
+          quantity: quantity++
+        })
+      }
+      dispatch(
