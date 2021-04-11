@@ -55,4 +55,7 @@ export const addToCart = (item, cart, userId, quantity) => async dispatch => {
     } else {
       //localStorage
       let itemsArray = localStorage.getItem('items')
-        ? 
+        ? JSON.parse(localStorage.getItem('items'))
+        : []
+
+      itemsArray.push
