@@ -54,3 +54,5 @@ export const addToCart = (item, cart, userId, quantity) => async dispatch => {
       dispatch(addedToCart(newCartData))
     } else {
       //localStorage
+      let itemsArray = localStorage.getItem('items')
+        ? 
