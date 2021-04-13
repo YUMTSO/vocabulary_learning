@@ -65,4 +65,9 @@ export const addToCart = (item, cart, userId, quantity) => async dispatch => {
       dispatch(addedToCart(item))
     }
   } catch (error) {
-    console
+    console.error(error)
+  }
+}
+
+//REDUCER
+export default function(state = initialState, ac
