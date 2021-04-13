@@ -60,4 +60,9 @@ export const addToCart = (item, cart, userId, quantity) => async dispatch => {
 
       itemsArray.push(item)
 
-      localStorage.setItem('items', JSON.stringify(itemsArray
+      localStorage.setItem('items', JSON.stringify(itemsArray))
+
+      dispatch(addedToCart(item))
+    }
+  } catch (error) {
+    console
