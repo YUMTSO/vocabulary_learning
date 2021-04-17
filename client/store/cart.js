@@ -70,4 +70,7 @@ export const addToCart = (item, cart, userId, quantity) => async dispatch => {
 }
 
 //REDUCER
-export default function(state = initialState, ac
+export default function(state = initialState, action) {
+  switch (action.type) {
+    case GOT_CART_ITEMS:
+      retur
