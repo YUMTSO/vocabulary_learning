@@ -75,4 +75,8 @@ export default function(state = initialState, action) {
     case GOT_CART_ITEMS:
       return action.items
     case ADDED_TO_CART:
-      return [...state,
+      return [...state, action.newCartData]
+    default:
+      return state
+  }
+}
