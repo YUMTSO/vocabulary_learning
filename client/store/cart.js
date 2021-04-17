@@ -73,4 +73,6 @@ export const addToCart = (item, cart, userId, quantity) => async dispatch => {
 export default function(state = initialState, action) {
   switch (action.type) {
     case GOT_CART_ITEMS:
-      retur
+      return action.items
+    case ADDED_TO_CART:
+      return [...state,
