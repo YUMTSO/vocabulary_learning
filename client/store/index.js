@@ -1,2 +1,3 @@
 import {createStore, combineReducers, applyMiddleware} from 'redux'
-import {cr
+import {createLogger} from 'redux-logger'
+import thunkMiddleware from 'redux-thun
