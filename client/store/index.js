@@ -8,4 +8,6 @@ import cart from './cart'
 
 const reducer = combineReducers({user, coffees, cart})
 const middleware = composeWithDevTools(
-  applyMiddleware(thunkMiddleware
+  applyMiddleware(thunkMiddleware, createLogger({collapsed: true}))
+)
+const store = createStore(reducer, middlewar
