@@ -7,4 +7,5 @@ import coffees from './products'
 import cart from './cart'
 
 const reducer = combineReducers({user, coffees, cart})
-const m
+const middleware = composeWithDevTools(
+  applyMiddleware(thunkMiddleware
