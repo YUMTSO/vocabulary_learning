@@ -34,3 +34,67 @@ const gotSingleCoffee = coffee => ({
   type: GET_SINGLE_COFFEE,
   coffee
 })
+
+const updateSingleCoffee = coffee => ({
+  type: UPDATE_SINGLE_COFFEE,
+  coffee
+})
+
+const addSingleCoffee = coffee => ({
+  type: ADD_SINGLE_COFFEE,
+  coffee
+})
+const deleteSingleCoffee = coffee => ({
+  type: REMOVE_SINGLE_COFFEE,
+  coffee
+})
+
+/**
+ * THUNK CREATORS
+ */
+export const getCoffees = () => async dispatch => {
+  try {
+    dispatch(gettingCoffees)
+    const {data} = await axios.get('/api/products')
+    dispatch(gotCoffees(data))
+  } catch (err) {
+    console.error(err)
+  }
+}
+
+export const getSingleCoffee = coffeeId => async dispatch => {
+  try {
+    dispatch(gettingCoffees)
+    const {data} = await axios.get(`/api/products/${coffeeId}`)
+    dispatch(gotSingleCoffee(data))
+  } catch (err) {
+    console.error(err)
+  }
+}
+export const updateCoffee = coffee => async dispatch => {
+  try {
+    dispatch(gettingCoffees)
+    const {data} = await axios.put(`/api/products/${coffee.id}`, coffee)
+    dispatch(updateSingleCoffee(data))
+  } catch (err) {
+    console.error(err)
+  }
+}
+
+export const addCoffee = coffee => async dispatch => {
+  try {
+    dispatch(gettingCoffees)
+    const {data} = await axios.post(`/api/products/new`, coffee)
+    dispatch(addSingleCoffee(data))
+  } catch (err) {
+    console.error(err)
+  }
+}
+
+export const deleteCoffee = coffee => async dispatch => {
+  try {
+    dispatch(gettingCoffees)
+    await axios.delete(`/api/products/${coffee.id}`)
+    dispatch(deleteSingleCoffee(coffee))
+  } catch (err) {
+    console.error(err)
