@@ -98,3 +98,34 @@ export const deleteCoffee = coffee => async dispatch => {
     dispatch(deleteSingleCoffee(coffee))
   } catch (err) {
     console.error(err)
+  }
+}
+/**
+ * REDUCER
+ */
+export default function(state = initialState, action) {
+  switch (action.type) {
+    case GETTING_ALL_COFFEES:
+      return {...state, loading: true}
+    case GET_ALL_COFFEES:
+      return {...state, coffees: action.coffees, loading: false}
+    case GET_SINGLE_COFFEE:
+      return {...state, coffee: action.coffee, loading: false}
+    case UPDATE_SINGLE_COFFEE:
+      return {...state, coffee: action.coffee, loading: false}
+    case ADD_SINGLE_COFFEE:
+      return {
+        ...state,
+        coffees: [...state.coffees, action.coffee],
+        loading: false
+      }
+    case REMOVE_SINGLE_COFFEE: {
+      const filteredCoffees = state.coffees.filter(coffee => {
+        return coffee.id !== action.coffee.id
+      })
+      return {...state, coffees: filteredCoffees, loading: false}
+    }
+    default:
+      return state
+  }
+}
