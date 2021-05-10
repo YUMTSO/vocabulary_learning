@@ -8,4 +8,5 @@ import configureMockStore from 'redux-mock-store'
 import thunkMiddleware from 'redux-thunk'
 import history from '../history'
 
-const middle
+const middlewares = [thunkMiddleware]
+const mockStore = configureMockStore
