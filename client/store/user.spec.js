@@ -9,4 +9,8 @@ import thunkMiddleware from 'redux-thunk'
 import history from '../history'
 
 const middlewares = [thunkMiddleware]
-const mockStore = configureMockStore
+const mockStore = configureMockStore(middlewares)
+
+describe('thunk creators', () => {
+  let store
+  let
