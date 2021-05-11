@@ -18,4 +18,5 @@ describe('thunk creators', () => {
   const initialState = {user: {}}
 
   beforeEach(() => {
-    mock
+    mockAxios = new MockAdapter(axios)
+    store = mockStore(i
