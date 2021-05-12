@@ -19,4 +19,9 @@ describe('thunk creators', () => {
 
   beforeEach(() => {
     mockAxios = new MockAdapter(axios)
-    store = mockStore(i
+    store = mockStore(initialState)
+  })
+
+  afterEach(() => {
+    mockAxios.restore()
+    sto
