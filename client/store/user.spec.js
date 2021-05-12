@@ -24,4 +24,8 @@ describe('thunk creators', () => {
 
   afterEach(() => {
     mockAxios.restore()
-    sto
+    store.clearActions()
+  })
+
+  describe('me', () => {
+    it('eve
