@@ -28,4 +28,4 @@ describe('thunk creators', () => {
   })
 
   describe('me', () => {
-    it('eve
+    it('eventually dispatches the GET USER action', async (
