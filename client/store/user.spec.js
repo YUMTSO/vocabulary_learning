@@ -31,4 +31,5 @@ describe('thunk creators', () => {
     it('eventually dispatches the GET USER action', async () => {
       const fakeUser = {email: 'Cody'}
       mockAxios.onGet('/auth/me').replyOnce(200, fakeUser)
-      awai
+      await store.dispatch(me())
+      const actions = store.ge
