@@ -32,4 +32,5 @@ describe('thunk creators', () => {
       const fakeUser = {email: 'Cody'}
       mockAxios.onGet('/auth/me').replyOnce(200, fakeUser)
       await store.dispatch(me())
-      const actions = store.ge
+      const actions = store.getActions()
+      expect(actions[0].type).to.be.equal('GET_U
