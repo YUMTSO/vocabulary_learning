@@ -39,4 +39,5 @@ describe('thunk creators', () => {
   })
 
   describe('logout', () => {
-    it('logout: eventually dispatche
+    it('logout: eventually dispatches the REMOVE_USER action', async () => {
+      mockAxios.onPost('/auth/log
