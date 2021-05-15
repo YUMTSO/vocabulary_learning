@@ -37,3 +37,6 @@ describe('thunk creators', () => {
       expect(actions[0].user).to.be.deep.equal(fakeUser)
     })
   })
+
+  describe('logout', () => {
+    it('logout: eventually dispatche
