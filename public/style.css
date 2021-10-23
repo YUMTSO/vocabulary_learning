@@ -1,4 +1,7 @@
 .banner {
   background-color: tan;
   color: whitesmoke;
-  font
+  font-weight: 300;
+  border-radius: 1em;
+  outline: none;
+  cursor: pointer;
