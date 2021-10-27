@@ -16,4 +16,7 @@
   background-color: #555;
   color: whitesmoke;
   font-weight: 100;
-  border-radius
+  border-radius: 1em;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 
