@@ -23,4 +23,9 @@
   font-size: 17px;
   margin: 20px;
   font-size: 125%;
-  fo
+  font-family: sans-serif;
+}
+
+.slideshow {
+  max-width: 1000px;
+  
