@@ -152,3 +152,61 @@ const seedProducts = [
   },
   {
     name: 'Cheese - Le Cheve Noir',
+    description:
+      'imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed',
+    preparation: 'Goldenrod',
+    origin: 'Indonesia',
+    weight: 3.1,
+    quantity: 90,
+    price: 81.25,
+    imgUrl:
+      'https://static1.squarespace.com/static/5419e3c7e4b090c9db3d42ca/t/59ba8db018a0a2e3511cd20f/1505398290169/Nossa-Familia-Coffee-Coffee-Bag-Old-New-Back.jpg?format=500w'
+  },
+
+  {
+    name: 'Definitely Decafe',
+    description: 'non quam nec dui luctus rutrum nulla',
+    preparation: 'Puce',
+    origin: 'China',
+    weight: 1.6,
+    quantity: 17,
+    price: 83.11,
+    imgUrl:
+      'https://vrteje8p14-flywheel.netdna-ssl.com/wp-content/uploads/2017/05/bean-bags-2.jpg'
+  },
+  {
+    name: 'Martina Salas',
+    description: 'duis at velit eu est congue',
+    preparation: 'Blue',
+    origin: 'China',
+    weight: 5.6,
+    quantity: 82,
+    price: 39.2,
+    imgUrl:
+      'https://cdn.shopify.com/s/files/1/1096/7616/articles/newbagpart3-9_1024x1024.jpg?v=1489788077'
+  }
+]
+
+const seedUsers = [
+  {
+    first_name: 'Lucy',
+    last_name: 'Ripon',
+    email: 'lripon0@house.gov',
+    password: 'PyKAOPzK',
+    imgUrl: 'http://dummyimage.com/112x211.bmp/ff4444/ffffff',
+    addresses: [
+      {
+        street: '966 Moulton Road',
+        zipcode: '89110',
+        city: 'Las Vegas',
+        state: 'Nevada',
+        phone: '+1987234355',
+        country: 'United States'
+      }
+    ]
+  }
+]
+
+const seedOrders = [
+  {
+    userId: 1,
