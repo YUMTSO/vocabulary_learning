@@ -11,4 +11,6 @@ router.get('/cart', async (req, res, next) => {
 })
 
 /// get all the item for the cart for 1 user
-router.get('/cart/:userId', asyn
+router.get('/cart/:userId', async (req, res, next) => {
+  try {
+    const orders = await Orders.
