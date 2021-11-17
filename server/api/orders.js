@@ -24,4 +24,5 @@ router.get('/cart/:userId', async (req, res, next) => {
   }
 })
 
-// get t
+// get the Detail for the Cart in one Line
+router.get('/:userId/cart/:orderId', asyn
