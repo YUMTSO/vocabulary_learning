@@ -18,4 +18,10 @@ router.get('/cart/:userId', async (req, res, next) => {
       include: [{model: Products}]
     })
     const cart = orders[0].products
-    res.js
+    res.json(cart)
+  } catch (err) {
+    next(err)
+  }
+})
+
+// get t
