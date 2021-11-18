@@ -25,4 +25,6 @@ router.get('/cart/:userId', async (req, res, next) => {
 })
 
 // get the Detail for the Cart in one Line
-router.get('/:userId/cart/:orderId', asyn
+router.get('/:userId/cart/:orderId', async (req, res, next) => {
+  try {
+    const singleOrder = await OrdersProducts
