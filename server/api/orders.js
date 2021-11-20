@@ -30,4 +30,10 @@ router.get('/:userId/cart/:orderId', async (req, res, next) => {
     const singleOrder = await OrdersProducts.findOne({
       where: {orderId: req.params.orderId}
     })
-    re
+    res.json(singleOrder)
+  } catch (err) {
+    next(err)
+  }
+})
+
+router.post('/:
