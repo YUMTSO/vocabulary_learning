@@ -38,4 +38,6 @@ router.get('/:userId/cart/:orderId', async (req, res, next) => {
 
 router.post('/:userId/cart', async (req, res, next) => {
   try {
-    const [order] = await Orde
+    const [order] = await Orders.findOrCreate({
+      where: {
+        u
