@@ -45,4 +45,7 @@ router.post('/:userId/cart', async (req, res, next) => {
       }
     })
     const orderProduct = await OrdersProducts.create({
-      productId: req.body.pro
+      productId: req.body.productId,
+      quantity: req.body.quantity,
+      orderId: order.id
+   
