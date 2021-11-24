@@ -40,4 +40,8 @@ router.post('/:userId/cart', async (req, res, next) => {
   try {
     const [order] = await Orders.findOrCreate({
       where: {
-        u
+        userId: req.params.userId,
+        completed: false
+      }
+    })
+    const orderProd
