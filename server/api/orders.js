@@ -44,4 +44,5 @@ router.post('/:userId/cart', async (req, res, next) => {
         completed: false
       }
     })
-    const orderProd
+    const orderProduct = await OrdersProducts.create({
+      productId: req.body.pro
