@@ -48,4 +48,8 @@ router.post('/:userId/cart', async (req, res, next) => {
       productId: req.body.productId,
       quantity: req.body.quantity,
       orderId: order.id
-   
+    })
+
+    res.status(201).json(orderProduct)
+  } catch (err) {
+    ne
