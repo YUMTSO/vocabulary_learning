@@ -61,4 +61,7 @@ router.put('/:userId/cart/:orderId', async (req, res, next) => {
     const [order] = await Orders.findAll({
       where: {
         completed: false,
-        id: r
+        id: req.params.orderId
+      }
+    })
+    const [numOfOrders, [updated]] 
