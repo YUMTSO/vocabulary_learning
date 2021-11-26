@@ -56,4 +56,6 @@ router.post('/:userId/cart', async (req, res, next) => {
   }
 })
 
-router.put('/:userId/cart/:orderId', as
+router.put('/:userId/cart/:orderId', async (req, res, next) => {
+  try {
+    const [order] = await Order
