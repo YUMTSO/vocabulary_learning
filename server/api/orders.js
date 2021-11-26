@@ -58,4 +58,7 @@ router.post('/:userId/cart', async (req, res, next) => {
 
 router.put('/:userId/cart/:orderId', async (req, res, next) => {
   try {
-    const [order] = await Order
+    const [order] = await Orders.findAll({
+      where: {
+        completed: false,
+        id: r
