@@ -66,4 +66,8 @@ router.put('/:userId/cart/:orderId', async (req, res, next) => {
     })
     const [numOfOrders, [updated]] = await OrdersProducts.update(
       {
-        quantity: re
+        quantity: req.body.quantity
+      },
+      {
+        where: {
+          orderId: ord
