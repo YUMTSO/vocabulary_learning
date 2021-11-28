@@ -73,4 +73,13 @@ router.put('/:userId/cart/:orderId', async (req, res, next) => {
           orderId: order.id,
           productId: req.body.productId
         },
-        returnin
+        returning: true
+      }
+    )
+    res.json(updated)
+  } catch (err) {
+    next(err)
+  }
+})
+
+rout
