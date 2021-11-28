@@ -70,4 +70,7 @@ router.put('/:userId/cart/:orderId', async (req, res, next) => {
       },
       {
         where: {
-          orderId: ord
+          orderId: order.id,
+          productId: req.body.productId
+        },
+        returnin
