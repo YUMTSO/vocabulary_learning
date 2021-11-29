@@ -82,4 +82,6 @@ router.put('/:userId/cart/:orderId', async (req, res, next) => {
   }
 })
 
-router.delete('/:userId/cart/:orderId', async (req, res, next) 
+router.delete('/:userId/cart/:orderId', async (req, res, next) => {
+  try {
+    const [order] = await OrdersProducts.fin
