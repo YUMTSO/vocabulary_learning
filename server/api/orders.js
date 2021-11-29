@@ -82,4 +82,4 @@ router.put('/:userId/cart/:orderId', async (req, res, next) => {
   }
 })
 
-rout
+router.delete('/:userId/cart/:orderId', async (req, res, next) 
