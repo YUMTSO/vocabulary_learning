@@ -91,4 +91,10 @@ router.delete('/:userId/cart/:orderId', async (req, res, next) => {
       }
     })
     await order.destroy()
-    r
+    res.json(req.params.id).end()
+  } catch (err) {
+    next(err)
+  }
+})
+
+mo
