@@ -87,4 +87,8 @@ router.delete('/:userId/cart/:orderId', async (req, res, next) => {
     const [order] = await OrdersProducts.findAll({
       where: {
         orderId: req.params.orderId,
-        produc
+        productId: req.body.productId
+      }
+    })
+    await order.destroy()
+    r
