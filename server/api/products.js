@@ -10,4 +10,6 @@ router.get('/', async (req, res, next) => {
   }
 })
 
-ro
+router.get('/:id', async (req, res, next) => {
+  try {
+    co
