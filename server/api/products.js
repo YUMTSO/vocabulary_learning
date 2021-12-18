@@ -13,4 +13,10 @@ router.get('/', async (req, res, next) => {
 router.get('/:id', async (req, res, next) => {
   try {
     const singleCoffee = await Products.findByPk(req.params.id)
-    res.json(
+    res.json(singleCoffee)
+  } catch (err) {
+    next(err)
+  }
+})
+
+router.post('/', as
