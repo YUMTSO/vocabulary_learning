@@ -19,4 +19,6 @@ router.get('/:id', async (req, res, next) => {
   }
 })
 
-router.post('/', as
+router.post('/', async (req, res, next) => {
+  try {
+    const newCoffee = aw
