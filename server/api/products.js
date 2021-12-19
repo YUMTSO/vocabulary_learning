@@ -28,4 +28,8 @@ router.post('/', async (req, res, next) => {
   }
 })
 
-router.delete('/:id', async (req, res, next) =
+router.delete('/:id', async (req, res, next) => {
+  try {
+    await Products.destroy({
+      where: {
+        id: 
