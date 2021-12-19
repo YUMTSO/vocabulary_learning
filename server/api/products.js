@@ -32,4 +32,7 @@ router.delete('/:id', async (req, res, next) => {
   try {
     await Products.destroy({
       where: {
-        id: 
+        id: req.params.id
+      }
+    })
+    res.json(req.params.id).end()
