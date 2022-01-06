@@ -36,3 +36,9 @@ router.delete('/:id', async (req, res, next) => {
       }
     })
     res.json(req.params.id).end()
+  } catch (err) {
+    next(err)
+  }
+})
+
+router.put('/:id',
