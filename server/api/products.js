@@ -45,4 +45,9 @@ router.put('/:id', async (req, res, next) => {
   try {
     const [numOfRows, [updated]] = await Products.update(req.body, {
       where: {
-   
+        id: req.params.id
+      },
+      returning: true
+    })
+    res.json(updated)
+ 
