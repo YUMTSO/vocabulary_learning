@@ -50,4 +50,9 @@ router.put('/:id', async (req, res, next) => {
       returning: true
     })
     res.json(updated)
- 
+  } catch (err) {
+    next(err)
+  }
+})
+
+module.exports = router
