@@ -41,4 +41,6 @@ router.delete('/:id', async (req, res, next) => {
   }
 })
 
-router.put('/:id',
+router.put('/:id', async (req, res, next) => {
+  try {
+    const [numOfRows, [updated
