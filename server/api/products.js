@@ -43,4 +43,6 @@ router.delete('/:id', async (req, res, next) => {
 
 router.put('/:id', async (req, res, next) => {
   try {
-    const [numOfRows, [updated
+    const [numOfRows, [updated]] = await Products.update(req.body, {
+      where: {
+   
