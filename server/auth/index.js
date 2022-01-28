@@ -8,4 +8,5 @@ router.post('/login', async (req, res, next) => {
     if (!user) {
       console.log('No such user found:', req.body.email)
       res.status(401).send('Wrong username and/or password')
-    } else if (!use
+    } else if (!user.correctPassword(req.body.password)) {
+      console.log('Incorrect password for 
