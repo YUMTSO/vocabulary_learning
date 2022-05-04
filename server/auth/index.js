@@ -42,4 +42,4 @@ router.get('/me', (req, res) => {
   res.json(req.user)
 })
 
-route
+router.use('/google', require('./google'))
