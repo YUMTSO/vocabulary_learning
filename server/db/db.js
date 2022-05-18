@@ -11,4 +11,5 @@ const db = new Sequelize(
 )
 module.exports = db
 
-// This is a global 
+// This is a global Mocha hook used for resource cleanup.
+// Otherwise, Mocha v4+ doe
