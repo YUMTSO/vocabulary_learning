@@ -14,4 +14,7 @@ const Addresses = db.define('addresses', {
   zipcode: {
     type: Sequelize.STRING,
     unique: false,
- 
+    allowNull: false,
+    validate: {
+      notEmpty: true
+    }
