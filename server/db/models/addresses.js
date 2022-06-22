@@ -5,4 +5,7 @@ const db = require('../db')
 const Addresses = db.define('addresses', {
   street: {
     type: Sequelize.STRING,
-    uniqu
+    unique: false,
+    allowNull: false,
+    validate: {
+      notEmpty: tr
