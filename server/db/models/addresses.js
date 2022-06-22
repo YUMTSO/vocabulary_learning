@@ -8,4 +8,10 @@ const Addresses = db.define('addresses', {
     unique: false,
     allowNull: false,
     validate: {
-      notEmpty: tr
+      notEmpty: true
+    }
+  },
+  zipcode: {
+    type: Sequelize.STRING,
+    unique: false,
+ 
