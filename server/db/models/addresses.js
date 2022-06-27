@@ -44,3 +44,7 @@ const Addresses = db.define('addresses', {
     }
   },
   country: {
+    type: Sequelize.STRING,
+    unique: false,
+    allowNull: false,
+    v
