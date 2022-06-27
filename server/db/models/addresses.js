@@ -21,4 +21,8 @@ const Addresses = db.define('addresses', {
   },
   city: {
     type: Sequelize.STRING,
-    unique: fa
+    unique: false,
+    allowNull: false,
+    validate: {
+      notEmpty: true
+  
