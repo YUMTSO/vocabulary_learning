@@ -33,4 +33,9 @@ const Addresses = db.define('addresses', {
     allowNull: false,
     validate: {
       notEmpty: true
-    
+    }
+  },
+  phone: {
+    type: Sequelize.STRING,
+    unique: false,
+    allowNul
