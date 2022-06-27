@@ -38,4 +38,9 @@ const Addresses = db.define('addresses', {
   phone: {
     type: Sequelize.STRING,
     unique: false,
-    allowNul
+    allowNull: false,
+    validate: {
+      notEmpty: true
+    }
+  },
+  country: {
