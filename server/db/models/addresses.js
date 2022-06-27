@@ -53,4 +53,4 @@ const Addresses = db.define('addresses', {
   }
 })
 
-module.exports = Addres
+module.exports = Addresses
