@@ -47,4 +47,10 @@ const Addresses = db.define('addresses', {
     type: Sequelize.STRING,
     unique: false,
     allowNull: false,
-    v
+    validate: {
+      notEmpty: true
+    }
+  }
+})
+
+module.exports = Addres
