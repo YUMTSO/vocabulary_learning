@@ -6,4 +6,4 @@ const Sequelize = require('sequelize')
 const db = require('../db')
 
 /**
- * I
+ * If we had any associations to make, this would be a great p
