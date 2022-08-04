@@ -12,4 +12,9 @@ const db = require('../db')
  *    BlogPost.belongsTo(User)
  */
 
-Addresses.belongsTo(User
+Addresses.belongsTo(User)
+User.hasMany(Addresses)
+
+User.hasMany(Orders)
+
+const OrdersProducts = db
