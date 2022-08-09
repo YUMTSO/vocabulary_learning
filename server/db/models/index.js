@@ -17,4 +17,6 @@ User.hasMany(Addresses)
 
 User.hasMany(Orders)
 
-const OrdersProducts = db
+const OrdersProducts = db.define('OrdersProducts', {
+  quantity: {
+    type: Sequelize.I
