@@ -19,4 +19,9 @@ User.hasMany(Orders)
 
 const OrdersProducts = db.define('OrdersProducts', {
   quantity: {
-    type: Sequelize.I
+    type: Sequelize.INTEGER,
+    allowNull: true
+  }
+})
+
+Orders.belongsToMany(Products, {thro
