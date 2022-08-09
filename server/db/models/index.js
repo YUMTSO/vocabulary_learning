@@ -24,4 +24,5 @@ const OrdersProducts = db.define('OrdersProducts', {
   }
 })
 
-Orders.belongsToMany(Products, {thro
+Orders.belongsToMany(Products, {through: 'OrdersProducts'})
+Products.belongsToMany(Orders, {through: 
