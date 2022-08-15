@@ -28,4 +28,5 @@ Orders.belongsToMany(Products, {through: 'OrdersProducts'})
 Products.belongsToMany(Orders, {through: 'OrdersProducts'})
 
 /**
- * We'll export all of our models here, so that any
+ * We'll export all of our models here, so that any time a module needs a model,
+ * we can just require it from 'db/mode
