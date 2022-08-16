@@ -33,4 +33,10 @@ Products.belongsToMany(Orders, {through: 'OrdersProducts'})
  * for example, we can say: const {User} = require('../db/models')
  * instead of: const User = require('../db/models/user')
  */
-modul
+module.exports = {
+  User,
+  Products,
+  Addresses,
+  Orders,
+  OrdersProducts
+}
