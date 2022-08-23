@@ -6,4 +6,8 @@ const Orders = db.define('orders', {
   userId: {
     type: Sequelize.INTEGER,
     allowNull: false
+  },
+  completed: {
+    type: Sequelize.BOOLEAN,
+    allowNull: false
   
