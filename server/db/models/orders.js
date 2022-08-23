@@ -10,4 +10,7 @@ const Orders = db.define('orders', {
   completed: {
     type: Sequelize.BOOLEAN,
     allowNull: false
-  
+  }
+})
+
+module.exports = Orders
