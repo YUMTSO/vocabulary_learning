@@ -4,4 +4,6 @@ const {expect} = require('chai')
 const db = require('../index')
 const Products = db.model('products')
 
-describe('Products mo
+describe('Products model', () => {
+  describe('Validations', () => {
+    it('requires `
