@@ -9,4 +9,6 @@ describe('Products model', () => {
     it('requires `name`', async () => {
       const products = Products.build()
       try {
-  
+        await products.validate()
+        throw Error(
+          'validation was s
