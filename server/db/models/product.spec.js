@@ -11,4 +11,6 @@ describe('Products model', () => {
       try {
         await products.validate()
         throw Error(
-          'validation was s
+          'validation was successful but should have failed without `name`'
+        )
+      
