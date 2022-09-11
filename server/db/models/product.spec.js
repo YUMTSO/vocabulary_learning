@@ -14,4 +14,8 @@ describe('Products model', () => {
           'validation was successful but should have failed without `name`'
         )
       } catch (err) {
-        expect(err.message).to.contain('name cannot be nu
+        expect(err.message).to.contain('name cannot be null')
+      }
+    })
+
+    it('requires `name` to not be an empty string', a
