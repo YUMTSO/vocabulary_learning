@@ -18,4 +18,5 @@ describe('Products model', () => {
       }
     })
 
-    it('requires `name` to not be an empty string', a
+    it('requires `name` to not be an empty string', async () => {
+      const products = Products.build({
