@@ -24,4 +24,6 @@ describe('Products model', () => {
       })
 
       try {
-        await produ
+        await products.validate()
+        throw Error(
+          'validation was succes
