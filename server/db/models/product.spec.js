@@ -28,4 +28,6 @@ describe('Products model', () => {
         throw Error(
           'validation was successful but should have failed if name is an empty string'
         )
-      } ca
+      } catch (err) {
+        expect(err.message).to.contain('Validation error')
+       
