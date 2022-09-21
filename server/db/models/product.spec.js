@@ -36,4 +36,5 @@ describe('Products model', () => {
 
 
 
-    it('requires `
+    it('requires `description` to not be an empty string', async () => {
+      const pr
