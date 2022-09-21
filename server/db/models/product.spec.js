@@ -41,3 +41,6 @@ describe('Products model', () => {
         description: ''
       })
       try {
+        await products.validate()
+        throw Error(
+          'valid
