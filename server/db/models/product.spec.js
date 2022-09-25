@@ -48,4 +48,6 @@ describe('Products model', () => {
       } catch (err) {
         expect(err.message).to.contain('Validation error')
         /* handle error */
- 
+      }
+    }) // end of description
+    it('requires `preparation` to not be an empty string
