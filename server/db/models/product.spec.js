@@ -43,4 +43,4 @@ describe('Products model', () => {
       try {
         await products.validate()
         throw Error(
-          'valid
+          'validation was successful but should have failed if description is an empty 
