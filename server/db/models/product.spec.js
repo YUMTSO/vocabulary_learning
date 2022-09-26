@@ -50,4 +50,6 @@ describe('Products model', () => {
         /* handle error */
       }
     }) // end of description
-    it('requires `preparation` to not be an empty string
+    it('requires `preparation` to not be an empty string', async () => {
+      const products = Products.build({
+        prepa
