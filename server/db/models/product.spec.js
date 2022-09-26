@@ -52,4 +52,9 @@ describe('Products model', () => {
     }) // end of description
     it('requires `preparation` to not be an empty string', async () => {
       const products = Products.build({
-        prepa
+        preparation: ''
+      })
+
+      try {
+        await products.validate()
+        
