@@ -61,4 +61,5 @@ describe('Products model', () => {
           'validation was successful but should have failed if preparation is an empty string'
         )
       } catch (err) {
-        e
+        expect(err.message).to.contain('Validation error')
+        /* 
