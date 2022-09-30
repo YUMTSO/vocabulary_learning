@@ -58,4 +58,7 @@ describe('Products model', () => {
       try {
         await products.validate()
         throw Error(
-          'validation was successful but should have failed
+          'validation was successful but should have failed if preparation is an empty string'
+        )
+      } catch (err) {
+        e
