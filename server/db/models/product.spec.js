@@ -65,4 +65,5 @@ describe('Products model', () => {
         /* handle error */
       }
     }) // end of preparation
-    it('requires `o
+    it('requires `origin` to not be an empty string', async () => {
+      const products = Produc
