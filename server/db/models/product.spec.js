@@ -66,4 +66,9 @@ describe('Products model', () => {
       }
     }) // end of preparation
     it('requires `origin` to not be an empty string', async () => {
-      const products = Produc
+      const products = Products.build({
+        origin: ''
+      })
+
+      try {
+        await 
