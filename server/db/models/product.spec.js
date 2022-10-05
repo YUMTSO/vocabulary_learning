@@ -71,4 +71,6 @@ describe('Products model', () => {
       })
 
       try {
-        await 
+        await products.validate()
+        throw Error(
+          'validation w
