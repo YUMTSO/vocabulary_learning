@@ -73,4 +73,7 @@ describe('Products model', () => {
       try {
         await products.validate()
         throw Error(
-          'validation was successful but should have failed if origin is an empty strin
+          'validation was successful but should have failed if origin is an empty string'
+        )
+      } catch (err) {
+        expect(err.message).to.contain(
