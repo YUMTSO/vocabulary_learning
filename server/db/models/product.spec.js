@@ -73,4 +73,4 @@ describe('Products model', () => {
       try {
         await products.validate()
         throw Error(
-          'validation w
+          'validation was successful but should have failed if origin is an empty strin
