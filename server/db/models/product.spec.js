@@ -79,4 +79,5 @@ describe('Products model', () => {
         expect(err.message).to.contain('Validation error')
         /* handle error */
       }
-    }) //
+    }) // end of origin
+    it('requires `weight` to not be an empty string', asyn
