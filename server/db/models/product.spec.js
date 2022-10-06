@@ -76,4 +76,7 @@ describe('Products model', () => {
           'validation was successful but should have failed if origin is an empty string'
         )
       } catch (err) {
-        expect(err.message).to.contain(
+        expect(err.message).to.contain('Validation error')
+        /* handle error */
+      }
+    }) //
