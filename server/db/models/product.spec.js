@@ -80,4 +80,6 @@ describe('Products model', () => {
         /* handle error */
       }
     }) // end of origin
-    it('requires `weight` to not be an empty string', asyn
+    it('requires `weight` to not be an empty string', async () => {
+      const products = Products.build({
+        weigh
