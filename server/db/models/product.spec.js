@@ -88,4 +88,7 @@ describe('Products model', () => {
       try {
         await products.validate()
         throw Error(
-          'validation was successful but should have failed if weigh
+          'validation was successful but should have failed if weight is an empty string'
+        )
+      } catch (err) {
+        expect(err.message).t
