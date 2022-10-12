@@ -87,4 +87,5 @@ describe('Products model', () => {
 
       try {
         await products.validate()
-        throw Erro
+        throw Error(
+          'validation was successful but should have failed if weigh
