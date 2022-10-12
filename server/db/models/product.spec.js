@@ -91,4 +91,7 @@ describe('Products model', () => {
           'validation was successful but should have failed if weight is an empty string'
         )
       } catch (err) {
-        expect(err.message).t
+        expect(err.message).to.contain('Validation error')
+        /* handle error */
+      }
+   
