@@ -95,4 +95,5 @@ describe('Products model', () => {
         /* handle error */
       }
     }) // end of name
-    it('requires `quantity` to not be an
+    it('requires `quantity` to not be an empty string', async () => {
+      const products = Products.bui
