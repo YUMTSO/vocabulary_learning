@@ -96,4 +96,9 @@ describe('Products model', () => {
       }
     }) // end of name
     it('requires `quantity` to not be an empty string', async () => {
-      const products = Products.bui
+      const products = Products.build({
+        quantity: ''
+      })
+
+      try {
+        await pro
