@@ -103,4 +103,4 @@ describe('Products model', () => {
       try {
         await products.validate()
         throw Error(
-          'validation was
+          'validation was successful but should have failed if quantity is an empty 
