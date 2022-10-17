@@ -109,3 +109,5 @@ describe('Products model', () => {
         expect(err.message).to.contain('Validation error')
         /* handle quantity */
       }
+    }) // end of name
+    it('requires `price` to not be an empty string', 
