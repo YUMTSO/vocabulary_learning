@@ -112,4 +112,8 @@ describe('Products model', () => {
     }) // end of name
     it('requires `price` to not be an empty string', async () => {
       const products = Products.build({
-        pri
+        price: ''
+      })
+
+      try {
+        await products.vali
