@@ -110,4 +110,6 @@ describe('Products model', () => {
         /* handle quantity */
       }
     }) // end of name
-    it('requires `price` to not be an empty string', 
+    it('requires `price` to not be an empty string', async () => {
+      const products = Products.build({
+        pri
