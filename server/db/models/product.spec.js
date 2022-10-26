@@ -122,4 +122,8 @@ describe('Products model', () => {
         )
       } catch (err) {
         expect(err.message).to.contain('Validation error')
-    
+        /* handle error */
+      }
+    }) // end of price
+
+    it('requires
