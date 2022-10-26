@@ -126,4 +126,5 @@ describe('Products model', () => {
       }
     }) // end of price
 
-    it('requires
+    it('requires `imgUrl` to not be an empty string', async () => {
+      const products
