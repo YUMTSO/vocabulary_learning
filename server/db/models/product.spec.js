@@ -118,4 +118,6 @@ describe('Products model', () => {
       try {
         await products.validate()
         throw Error(
-          'validation was success
+          'validation was successful but should have failed if price is an empty string'
+        )
+      } 
