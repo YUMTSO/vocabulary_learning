@@ -120,4 +120,6 @@ describe('Products model', () => {
         throw Error(
           'validation was successful but should have failed if price is an empty string'
         )
-      } 
+      } catch (err) {
+        expect(err.message).to.contain('Validation error')
+    
