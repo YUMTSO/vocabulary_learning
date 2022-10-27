@@ -134,4 +134,5 @@ describe('Products model', () => {
       try {
         await products.validate()
         throw Error(
-          'validation was suc
+          'validation was successful but should have failed if imgUrl is an empty string'
+     
