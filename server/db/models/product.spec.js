@@ -137,4 +137,8 @@ describe('Products model', () => {
           'validation was successful but should have failed if imgUrl is an empty string'
         )
       } catch (err) {
-        expect(err.message).to.contain('Valida
+        expect(err.message).to.contain('Validation error')
+        /* handle error */
+      }
+    }) // end of imgUrl
+ 
