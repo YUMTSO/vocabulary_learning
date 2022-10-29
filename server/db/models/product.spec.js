@@ -141,4 +141,5 @@ describe('Products model', () => {
         /* handle error */
       }
     }) // end of imgUrl
- 
+  })
+})
