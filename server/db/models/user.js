@@ -7,4 +7,9 @@ const User = db.define('user', {
     type: Sequelize.STRING,
     allowNull: true,
     validate: {
-    
+      notEmpty: true
+    }
+  },
+  last_name: {
+    type: Sequelize.STRING,
+    allowNull
