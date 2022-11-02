@@ -70,3 +70,5 @@ const Products = db.define('products', {
     }
   }
 })
+
+module.exports = Products
