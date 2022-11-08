@@ -20,4 +20,5 @@ const User = db.define('user', {
     allowNull: false
   },
   password: {
-    type: Sequelize
+    type: Sequelize.STRING,
+    // Making `.password` act like a func hides it when serial
