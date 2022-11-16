@@ -45,4 +45,5 @@ module.exports = User
 /**
  * instanceMethods
  */
-User.prototype.correctPa
+User.prototype.correctPassword = function(candidatePwd) {
+  return User.encryptPassword(candida
