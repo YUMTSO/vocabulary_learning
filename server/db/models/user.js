@@ -40,4 +40,9 @@ const User = db.define('user', {
   }
 })
 
-m
+module.exports = User
+
+/**
+ * instanceMethods
+ */
+User.prototype.correctPa
