@@ -50,4 +50,7 @@ User.prototype.correctPassword = function(candidatePwd) {
 }
 
 /**
- * cla
+ * classMethods
+ */
+User.generateSalt = function() {
+  return crypto.r
