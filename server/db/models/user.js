@@ -67,4 +67,6 @@ User.encryptPassword = function(plainText, salt) {
 /**
  * hooks
  */
-const setSalt
+const setSaltAndPassword = user => {
+  if (user.changed('password')) {
+    use
