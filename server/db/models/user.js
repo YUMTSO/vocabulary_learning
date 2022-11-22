@@ -69,4 +69,5 @@ User.encryptPassword = function(plainText, salt) {
  */
 const setSaltAndPassword = user => {
   if (user.changed('password')) {
-    use
+    user.salt = User.generateSalt()
+    user.password = User.encryptPass
