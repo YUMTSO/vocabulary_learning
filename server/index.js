@@ -19,4 +19,5 @@ if (process.env.NODE_ENV === 'test') {
 }
 
 /**
- * In your development environment, you c
+ * In your development environment, you can keep all of your
+ * app's secret API keys in a file called `secre
