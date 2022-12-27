@@ -35,4 +35,11 @@ passport.deserializeUser(async (id, done) => {
   try {
     const user = await db.models.user.findByPk(id)
     done(null, user)
-  } 
+  } catch (err) {
+    done(err)
+  }
+})
+
+const createApp = () => {
+  // logging middleware
+  a
