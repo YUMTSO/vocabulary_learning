@@ -51,4 +51,7 @@ const createApp = () => {
   // compression middleware
   app.use(compression())
 
-  // session midd
+  // session middleware with passport
+  app.use(
+    session({
+      secret: process
