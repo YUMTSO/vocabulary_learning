@@ -45,4 +45,5 @@ const createApp = () => {
   app.use(morgan('dev'))
 
   // body parsing middleware
-  app.us
+  app.use(express.json())
+  app.use(express.urlencoded({extended: true}))
