@@ -65,4 +65,7 @@ const createApp = () => {
 
   // auth and api routes
   app.use('/auth', require('./auth'))
-  app.us
+  app.use('/api', require('./api'))
+
+  // static file-serving middleware
+  ap
