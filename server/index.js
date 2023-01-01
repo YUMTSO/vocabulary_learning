@@ -68,4 +68,4 @@ const createApp = () => {
   app.use('/api', require('./api'))
 
   // static file-serving middleware
-  ap
+  app.use(express.static(path.join(__dirname, '..', 'publ
