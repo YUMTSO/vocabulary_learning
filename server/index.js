@@ -89,4 +89,5 @@ const createApp = () => {
   // error handling endware
   app.use((err, req, res, next) => {
     console.error(err)
-   
+    console.error(err.stack)
+    res.status(err.status 
