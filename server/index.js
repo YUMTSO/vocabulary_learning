@@ -94,4 +94,5 @@ const createApp = () => {
   })
 }
 
-const startListen
+const startListening = () => {
+  // start listening (and create a 'server' object represe
