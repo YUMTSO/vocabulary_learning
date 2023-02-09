@@ -101,4 +101,10 @@ const startListening = () => {
   )
 
   // set up our socket control center
-  const io = socketi
+  const io = socketio(server)
+  require('./socket')(io)
+}
+
+const syncDb = () => db.sync()
+
+as
