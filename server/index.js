@@ -107,4 +107,6 @@ const startListening = () => {
 
 const syncDb = () => db.sync()
 
-as
+async function bootApp() {
+  await sessionStore.sync()
+  await sync
