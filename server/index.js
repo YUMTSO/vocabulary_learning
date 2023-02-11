@@ -109,4 +109,8 @@ const syncDb = () => db.sync()
 
 async function bootApp() {
   await sessionStore.sync()
-  await sync
+  await syncDb()
+  await createApp()
+  await startListening()
+}
+// This evaluates a
